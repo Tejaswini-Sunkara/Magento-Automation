@@ -9,9 +9,9 @@ import java.util.concurrent.TimeUnit;
 public class DetailsPage extends BrowserDriver {
 
     public static void user_enters_all_the_required_details() {
-        driver.findElement(By.id("firstname")).sendKeys("John");
+        driver.findElement(By.id("firstname")).sendKeys("Kiho");
         driver.findElement(By.id("lastname")).sendKeys("David");
-        driver.findElement(By.id("email_address")).sendKeys("davidjohn19988@gmail.com");
+        driver.findElement(By.id("email_address")).sendKeys("davidkiho19988@gmail.com");
         driver.findElement(By.id("password")).sendKeys("Password@123490");
         driver.findElement(By.id("password-confirmation")).sendKeys("Password@123490");
 }
@@ -26,7 +26,7 @@ public class DetailsPage extends BrowserDriver {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.body.style.zoom='60%'");
 
-        driver.findElement(By.xpath("//span[text()='Email']/following::input[1]")).sendKeys("davidjohn19988@gmail.com");
+        driver.findElement(By.xpath("//span[text()='Email']/following::input[1]")).sendKeys("davidkiho19988@gmail.com");
         System.out.println("Email entered successfully");
         driver.findElement(By.xpath("(//span[text()='Password']/following::input)[1]")).sendKeys("Password@123490");
         System.out.println("Password entered successfully");
