@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="59.643" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-05T06:07:53.412837500Z">
-<testcase classname="Create New Account" name="User is able to Create an Account" time="31.636">
+<testsuite name="Cucumber" time="56.646" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-05T06:50:35.875282100Z">
+<testcase classname="Create New Account" name="User is able to Create an Account" time="31.135">
 <system-out><![CDATA[
 Given User Navigates to Magento homepage....................................passed
 When Users clicks on Create an Account On Homepage..........................passed
@@ -8,7 +8,7 @@ Then User enters all the required details...................................pass
 And User clicks on Create an account button.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Signin to an Account" name="User is able to Sign in with created Account" time="27.729">
+<testcase classname="Signin to an Account" name="User is able to Sign in with created Account" time="25.215">
 <system-out><![CDATA[
 Given User Navigates to Magento homepage....................................passed
 When User Navigates to Sign In page.........................................passed
